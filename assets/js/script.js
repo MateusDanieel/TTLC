@@ -13,12 +13,12 @@
             navigator.clipboard.writeText(input[i].value);
             
             const tooltip = document.querySelectorAll(".tooltip__text");
-            tooltip[i].innerHTML = "Copiado: " + input[i].value;
+            tooltip[i].innerHTML = "Copiado!";
         });
 
         bt.addEventListener('mouseout', () => {
-            const tooltip = document.querySelector(".tooltip__text");
-            tooltip.innerHTML = "Copiar para a área de transferência";
+            const tooltip = document.querySelectorAll(".tooltip__text");
+            tooltip[i].innerHTML = "Copiar para a área de transferência";
         });
     });
 
