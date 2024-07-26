@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Texto em Link</title>
+    <title>Conversor de Texto em URL e JSON</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
     <main>
         <form method="post" action="">
+
             <input type="text" id="thisInsertInput" placeholder="Insira o texto aqui ..." required />
 
             <button type="submit" id="thisSubmitInput">
@@ -17,15 +18,12 @@
             </button>
         </form>
 
-        <br /><br />
-
-        
         <input type="text" value="" id="thisLinkInput" class="result" disabled />
 
         <div class="tooltip">
             <button type="button" id="">
             <span class="tooltip__text">Copiar para a área de transferência</span>
-                Copiar
+                Copiar URL
             </button>
         </div>
 
@@ -34,12 +32,10 @@
         <div class="tooltip">
             <button type="button" id="">
             <span class="tooltip__text">Copiar para a área de transferência</span>
-                Copiar
+                Copiar JSON
             </button>
         </div>
     
-        
-        
     </main>
 
     
